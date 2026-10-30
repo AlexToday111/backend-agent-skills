@@ -1,0 +1,36 @@
+{
+  "name": "Feature request",
+  "description": "Propose a change with a concrete use case.",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "Problem or use case"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "proposal",
+      "attributes": {
+        "label": "Proposed solution"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "alternatives",
+      "attributes": {
+        "label": "Alternatives considered"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

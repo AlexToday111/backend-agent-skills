@@ -1,0 +1,3 @@
+# Go test output (do not ignore go.sum)
+*.test
+coverage.out
